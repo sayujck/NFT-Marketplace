@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(43, 43, 43);
+}
+#navBar {
+    display: flex;
+    justify-content: space-between;
+}
+.logoText {
+    font-family: "Work Sans", sans-serif;
+}
+.navLinks {
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+}
+.button {
+    background-color: #a259ff;
+    width: 100px;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+}
+
+/* Discover Section */
+.discover {
+    position: relative;
+}
+.disContent {
+    margin: 0px 0px 0px 150px;
+    font-family: "Work Sans", sans-serif;
+}
+.headLine {
+    font-size: 60px; 
+}
+.disContent .button {
+    font-size: 13px;
+}
+.sales{
+    font-family: "Space Mono", monospace;
+}
+.salesDetails h4{
+    font-size: 20px;
+}
+.salesDetails p{
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+}
+.mainNft {
+    position: absolute;
+    left: 40%;
+}
+.card {
+    left: 35%;
+    width: 400px;
+}
+.nftName {
+    font-size: 16px;
+}
+
+/* Trending */
+.collection {
+    font-family: "Work Sans", sans-serif;
+}
+.trendingCollection {
+    margin: 50px 0px 0px 100px;
+}
+.trending {
+    margin: 0px 100px 0px 100px;
+}
+.nftAnimation {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+}
+.nftAnimation:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    filter: brightness(1.2);
+}
+
+/* Top creators */
+.creatorCollection {
+    padding: 50px 0px 0px 100px;
+    font-family: "Work Sans", sans-serif;
+}
+.creators {
+    padding: 0px 0px 0px 80px;
+}
+
+/* More NFTs */
+.newCollection {
+    padding: 50px 0px 0px 100px;
+    font-family: "Work Sans", sans-serif;
+}
+.box {
+    box-shadow: 0 25px 25px rgba(0,0,0,0.50), 0 35px 22px rgba(0,0,0,0.16);
+}
+
+/* Subscribe */
+.subscribeCard {
+    display: flex;
+    justify-content: center;
+    font-family: "Work Sans", sans-serif;
+}
+.subscribeCardContent {
+    background-color: #3b3b3b;
+}
+.subscribeBox {
+    border: none;
+    font-size: 12px;
+    width: 150px;
+}
+.subscribeBox +span {
+    font-size: 14px;
+    margin: 5px 0px 0px 5px;
+    cursor: pointer;
+}
+.subscribeButton {
+    background-color: #a259ff;
+}
+
+.footer {
+    color: #cccccc;
+    background-color: #3b3b3b;
+    width: 1275px;
+    font-family: "Space Mono", monospace;
+}
+.footerlinks {
+    cursor: pointer;
+}
